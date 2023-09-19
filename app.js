@@ -221,17 +221,35 @@
 
 // 16
 
-var p = +prompt('enter a value')
-if(p>=1){
-    for(var i = p ; i>p ; i-- ){
-    }
-    document.write(i+ '<br>')
-
-}
+// var p = +prompt('enter a value')
+// for(var j =p ; j>=0 ; j-=0.5){
+//         document.write(  j+ '<br>')
+//     }
 
 // 16
 
+// 17
 
+function even(){
+    
+for(var i = 2 ; i<=20 ; i+=2){
+    document.write(  i + 'is Even' + '<br>')
+}
+
+}
+
+function odd(){
+    
+    for(var i = 1 ; i<=20 ; i+=2){
+        document.write(  i + 'is Even' + '<br>')
+    }
+    
+    }
+    
+odd()
+
+
+// 17
 
 
 
